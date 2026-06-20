@@ -462,23 +462,6 @@ proyecto-pfo2/
 └── README.md                  # Este archivo
 ```
 
----
-
-## ✅ Checklist de Entrega
-
-- [x] Prompt diseñado siguiendo mejores prácticas de Anthropic y OpenAI
-- [x] Prompt ejecutado en 2 agentes diferentes sin modificaciones
-- [x] Código generado preservado sin edición manual
-- [x] Página de portada funcionando con 3 enlaces
-- [x] Landing pages con todas las secciones requeridas (Cursor y OpenCode)
-- [ ] README.md completo con toda la información
-- [ ] Capturas de pantalla de ambas landing pages (desktop y mobile)
-- [ ] Proyecto desplegado en Vercel
-- [ ] Link del repositorio publicado en el foro de la comisión
-- [ ] Entrega antes del 26/06/2026 23:59
-
----
-
 ## 📚 Referencias
 
 - [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
