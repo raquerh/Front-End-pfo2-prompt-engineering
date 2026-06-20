@@ -58,9 +58,9 @@ Subir todo el código del proyecto a un único repositorio de GitHub. El archivo
 
 ## 🌐 Deploy en Vercel
 
-**URL del proyecto:** [COMPLETAR DESPUÉS DE DESPLEGAR EN VERCEL]
+**URL del proyecto:** https://fe-pfo2-prompt-engineering.vercel.app/
 
-Ejemplo: `https://pfo2-prompt-engineering.vercel.app`
+El proyecto está desplegado y accesible públicamente en Vercel. La portada incluye acceso directo al prompt utilizado y a ambas landing pages generadas.
 
 ---
 
