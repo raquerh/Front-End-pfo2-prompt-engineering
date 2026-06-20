@@ -430,8 +430,6 @@ proyecto-pfo2/
 │   ├── cursor-mobile.png
 │   ├── opencode-desktop.png
 │   └── opencode-mobile.png
-├── .kiro/                     # Carpeta de especificaciones Kiro
-│   └── specs/
 └── README.md                  # Este archivo
 ```
 
