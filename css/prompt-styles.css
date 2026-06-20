@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.7;
+    color: #1a1a1a;
+    background: #f8f8f8;
+}
+
+.back-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 40px;
+    z-index: 100;
+}
+
+.back-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    color: #000;
+}
+
+.prompt-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 120px 40px 80px;
+}
+
+.prompt-header {
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.prompt-header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 12px;
+    color: #000;
+}
+
+.prompt-meta {
+    font-size: 16px;
+    color: #666;
+}
+
+.prompt-content {
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.prompt-section {
+    padding: 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.prompt-section:last-child {
+    border-bottom: none;
+}
+
+.prompt-section h2 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.prompt-section p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+.prompt-section p:last-child {
+    margin-bottom: 0;
+}
+
+.prompt-section ul {
+    list-style: none;
+    margin-top: 16px;
+}
+
+.prompt-section ul li {
+    font-size: 16px;
+    color: #333;
+    padding-left: 24px;
+    position: relative;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.prompt-section ul li::before {
+    content: "•";
+    position: absolute;
+    left: 8px;
+    color: #999;
+}
+
+.prompt-footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 40px 80px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .back-nav {
+        padding: 16px 20px;
+    }
+
+    .prompt-container {
+        padding: 100px 20px 60px;
+    }
+
+    .prompt-header h1 {
+        font-size: 32px;
+    }
+
+    .prompt-section {
+        padding: 30px 24px;
+    }
+
+    .prompt-section h2 {
+        font-size: 12px;
+    }
+
+    .prompt-section p,
+    .prompt-section ul li {
+        font-size: 15px;
+    }
+}

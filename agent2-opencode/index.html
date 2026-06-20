@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FORGED — Reparación, restauración y customización de motocicletas. Taller artesanal con pasión por el metal y el motor.">
+  <meta name="keywords" content="motos, motocicletas, reparación, restauración, custom, taller, café racer, bobber, chopper, Argentina">
+  <meta name="author" content="FORGED Moto Workshop">
+  <meta property="og:title" content="FORGED — Taller de Motocicletas">
+  <meta property="og:description" content="Reparación, restauración y customización de motocicletas. Cada motor cuenta una historia.">
+  <meta property="og:type" content="website">
+  <title>FORGED — Taller de Motocicletas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#hero" class="nav__logo" aria-label="FORGED — Inicio">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">FORGED</span>
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about" class="nav__link">Nosotros</a></li>
+        <li><a href="#services" class="nav__link">Servicios</a></li>
+        <li><a href="#work" class="nav__link">Trabajos</a></li>
+        <li><a href="#testimonials" class="nav__link">Opiniones</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contacto</a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__content">
+        <div class="hero__tag">
+          <span class="tag-line"></span>
+          <span class="tag-text">Taller artesanal de motocicletas — Est. 2018</span>
+        </div>
+        <h1 class="hero__title">
+          <span class="title-line" data-reveal>Cada motor</span>
+          <span class="title-line title-line--accent" data-reveal>cuenta una</span>
+          <span class="title-line" data-reveal><em>historia.</em></span>
+        </h1>
+        <p class="hero__sub">
+          Reparamos, restauramos y creamos motocicletas que no existían.
+          Desde un tanque retorcido hasta una personalización completa.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Agendar visita al taller</a>
+          <a href="#work" class="btn btn--ghost">Ver trabajos</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__number" data-count="340">0</span><span class="stat__plus">+</span>
+            <span class="stat__label">Motos restauradas</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number" data-count="8">0</span>
+            <span class="stat__label">Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number" data-count="100">0</span><span class="stat__plus">%</span>
+            <span class="stat__label">Dedicación por motor</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__image-frame">
+          <div class="hero__image-placeholder" aria-hidden="true">
+            <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="500" fill="#1a1a1a"/>
+              <circle cx="120" cy="380" r="70" stroke="#e8a027" stroke-width="3" fill="none"/>
+              <circle cx="280" cy="380" r="70" stroke="#e8a027" stroke-width="3" fill="none"/>
+              <path d="M80 380 L160 200 L220 180 L280 200 L320 380" stroke="#e8a027" stroke-width="3" fill="none"/>
+              <circle cx="120" cy="380" r="20" stroke="#e8a027" stroke-width="2" fill="none"/>
+              <circle cx="280" cy="380" r="20" stroke="#e8a027" stroke-width="2" fill="none"/>
+              <line x1="160" y1="200" x2="200" y2="120" stroke="#e8a027" stroke-width="2"/>
+              <rect x="185" y="100" width="30" height="25" stroke="#e8a027" stroke-width="2" fill="none" rx="3"/>
+              <path d="M220 180 Q250 160 280 170" stroke="#e8a027" stroke-width="2" fill="none"/>
+              <text x="200" y="460" text-anchor="middle" fill="#555" font-family="monospace" font-size="12">YOUR PHOTO HERE</text>
+            </svg>
+          </div>
+        </div>
+        <div class="hero__scroll-indicator" aria-hidden="true">
+          <span class="scroll-text">Scroll</span>
+          <span class="scroll-line"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about__grid">
+        <div class="about__label">
+          <span class="section-label">01 — Nosotros</span>
+        </div>
+        <div class="about__content">
+          <h2 class="section-title">No somos un concesionario.<br>Somos un <em>taller.</em></h2>
+          <div class="about__text">
+            <p>
+              FORGED nació en 2018 en un garaje de Buenos Aires con una idea simple:
+              cada moto merece ser tratada como si fuera la única. No importa si es
+              una CB750 que necesita volver a la vida o una XR250 que quiere convertirse
+              en algo que nunca fue.
+            </p>
+            <p>
+              Somos tres mecánicos, un diseñador y un soñador. Trabajamos con las manos,
+              no con catálogos. Cada pieza que toca tiene un nombre, y cada motor que
+              suena en nuestro taller es una victoria.
+            </p>
+            <p>
+              No hacemos atajos. No usamos genéricos. Si tu moto está con nosotros,
+              está en las mejores manos que puede tener.
+            </p>
+          </div>
+          <div class="about__signature">
+            <span class="signature-line"></span>
+            <span class="signature-name">Martín Echeverría, Fundador</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__visual">
+        <div class="about__image-block" aria-hidden="true">
+          <div class="image-placeholder-large">
+            <svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="600" height="400" fill="#1a1a1a"/>
+              <rect x="50" y="50" width="500" height="300" stroke="#e8a027" stroke-width="1" fill="none" stroke-dasharray="8 4"/>
+              <text x="300" y="190" text-anchor="middle" fill="#555" font-family="monospace" font-size="14">TALLER — ESPACIO DE TRABAJO</text>
+              <text x="300" y="220" text-anchor="middle" fill="#444" font-family="monospace" font-size="11">YOUR PHOTO HERE</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="services__header">
+        <span class="section-label">02 — Servicios</span>
+        <h2 class="section-title">Lo que hacemos <em>mejor.</em></h2>
+      </div>
+      <div class="services__grid">
+        <article class="service-card" data-service>
+          <div class="service-card__number">01</div>
+          <h3 class="service-card__title">Reparación Integral</h3>
+          <p class="service-card__desc">
+            Diagnóstico completo del motor, transmisión, frenos, suspensión
+            y sistemas eléctricos. Reparamos lo que otros dan por perdido.
+          </p>
+          <div class="service-card__tags">
+            <span class="tag">Motor</span>
+            <span class="tag">Transmisión</span>
+            <span class="tag">Eléctrica</span>
+            <span class="tag">Frenos</span>
+          </div>
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="24" cy="24" r="18"/>
+              <path d="M24 12v6l4 4"/>
+              <circle cx="24" cy="24" r="3"/>
+            </svg>
+          </div>
+        </article>
+        <article class="service-card" data-service>
+          <div class="service-card__number">02</div>
+          <h3 class="service-card__title">Restauración Clásica</h3>
+          <p class="service-card__desc">
+            Devolvemos a la vida motos históricas. Desde el chasis hasta el
+            último tornillo cromado. Cada detalle cuenta.
+          </p>
+          <div class="service-card__tags">
+            <span class="tag">Chasis</span>
+            <span class="tag">Pintura</span>
+            <span class="tag">Cromado</span>
+            <span class="tag">Originalidad</span>
+          </div>
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 36V20l12-12 12 12v16"/>
+              <path d="M18 36v-8h12v8"/>
+              <line x1="12" y1="36" x2="36" y2="36"/>
+            </svg>
+          </div>
+        </article>
+        <article class="service-card" data-service>
+          <div class="service-card__number">03</div>
+          <h3 class="service-card__title">Customización Total</h3>
+          <p class="service-card__desc">
+            Café Racer, Bobber, Tracker, Scrambler — o algo que no tiene nombre.
+            Diseñamos y construimos tu moto soñada desde cero.
+          </p>
+          <div class="service-card__tags">
+            <span class="tag">Café Racer</span>
+            <span class="tag">Bobber</span>
+            <span class="tag">Tracker</span>
+            <span class="tag">Scrambler</span>
+          </div>
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M8 40l8-16 8 8 8-12 8 20"/>
+              <circle cx="38" cy="16" r="4"/>
+              <path d="M24 32l-4-4"/>
+            </svg>
+          </div>
+        </article>
+        <article class="service-card" data-service>
+          <div class="service-card__number">04</div>
+          <h3 class="service-card__title">Mantenimiento Preventivo</h3>
+          <p class="service-card__desc">
+            Service completo, cambios de aceite, ajuste de válvulas, sincronización
+            de carburadores. Tu moto al día y lista para la ruta.
+          </p>
+          <div class="service-card__tags">
+            <span class="tag">Service</span>
+            <span class="tag">Ajuste</span>
+            <span class="tag">Sincronización</span>
+            <span class="tag">Diagnóstico</span>
+          </div>
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="8" y="14" width="32" height="20" rx="2"/>
+              <path d="M14 20h20M14 26h12"/>
+              <circle cx="36" cy="26" r="4"/>
+            </svg>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- WORK / GALLERY -->
+    <section class="work" id="work">
+      <div class="work__header">
+        <span class="section-label">03 — Trabajos</span>
+        <h2 class="section-title">Lo que sale de <em>nuestras manos.</em></h2>
+      </div>
+      <div class="work__gallery">
+        <div class="work__item work__item--wide" data-work>
+          <div class="work__item-inner">
+            <div class="work__img-placeholder">
+              <svg viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="800" height="500" fill="#1a1a1a"/>
+                <text x="400" y="250" text-anchor="middle" fill="#333" font-family="monospace" font-size="14">RESTAURACIÓN — CB750 FOUR 1975</text>
+              </svg>
+            </div>
+            <div class="work__item-info">
+              <span class="work__tag">Restauración completa</span>
+              <h3 class="work__item-title">Honda CB750 Four</h3>
+              <p class="work__item-desc">De un yacimiento de 40 años a una máquina impecable. 6 meses de trabajo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="work__item" data-work>
+          <div class="work__item-inner">
+            <div class="work__img-placeholder">
+              <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="400" fill="#1a1a1a"/>
+                <text x="200" y="200" text-anchor="middle" fill="#333" font-family="monospace" font-size="12">CUSTOM — YAMAHA SR400</text>
+              </svg>
+            </div>
+            <div class="work__item-info">
+              <span class="work__tag">Café Racer</span>
+              <h3 class="work__item-title">Yamaha SR400</h3>
+              <p class="work__item-desc">Tanque a medida, manubrio clip-on, escape 2-en-1.</p>
+            </div>
+          </div>
+        </div>
+        <div class="work__item" data-work>
+          <div class="work__item-inner">
+            <div class="work__img-placeholder">
+              <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="400" fill="#1a1a1a"/>
+                <text x="200" y="200" text-anchor="middle" fill="#333" font-family="monospace" font-size="12">CUSTOM — BMW R75/5</text>
+              </svg>
+            </div>
+            <div class="work__item-info">
+              <span class="work__tag">Bobber</span>
+              <h3 class="work__item-title">BMW R75/5</h3>
+              <p class="work__item-desc">Cuna reducida, asiento único, doble carburación Bing.</p>
+            </div>
+          </div>
+        </div>
+        <div class="work__item" data-work>
+          <div class="work__item-inner">
+            <div class="work__img-placeholder">
+              <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="400" fill="#1a1a1a"/>
+                <text x="200" y="200" text-anchor="middle" fill="#333" font-family="monospace" font-size="12">CUSTOM — KAWASAKI W650</text>
+              </svg>
+            </div>
+            <div class="work__item-info">
+              <span class="work__tag">Scrambler</span>
+              <h3 class="work__item-title">Kawasaki W650</h3>
+              <p class="work__item-desc">Subframe modificado, neumáticos off-road, manubrio alto.</p>
+            </div>
+          </div>
+        </div>
+        <div class="work__item work__item--wide" data-work>
+          <div class="work__item-inner">
+            <div class="work__img-placeholder">
+              <svg viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="800" height="500" fill="#1a1a1a"/>
+                <text x="400" y="250" text-anchor="middle" fill="#333" font-family="monospace" font-size="14">REPARACIÓN — TRIUMPH TR6 1971</text>
+              </svg>
+            </div>
+            <div class="work__item-info">
+              <span class="work__tag">Reparación motor</span>
+              <h3 class="work__item-title">Triumph TR6</h3>
+              <p class="work__item-desc">Rebuild completo del motor. Pistones, válvulas, árbol de levas y más.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process" id="process">
+      <div class="process__header">
+        <span class="section-label">04 — Proceso</span>
+        <h2 class="section-title">Así funciona <em>todo.</em></h2>
+      </div>
+      <div class="process__steps">
+        <div class="process__step" data-step>
+          <div class="step__number">01</div>
+          <div class="step__content">
+            <h3 class="step__title">Visita al taller</h3>
+            <p class="step__desc">Trae tu moto o mandanos fotos. Hacemos un diagnóstico visual y escuchamos qué tenés en mente.</p>
+          </div>
+          <div class="step__line" aria-hidden="true"></div>
+        </div>
+        <div class="process__step" data-step>
+          <div class="step__number">02</div>
+          <div class="step__content">
+            <h3 class="step__title">Propuesta técnica</h3>
+            <p class="step__desc">Armamos un plan de trabajo detallado: qué se necesita, cuánto lleva y cuánto cuesta. Sin sorpresas.</p>
+          </div>
+          <div class="step__line" aria-hidden="true"></div>
+        </div>
+        <div class="process__step" data-step>
+          <div class="step__number">03</div>
+          <div class="step__content">
+            <h3 class="step__title">El trabajo</h3>
+            <p class="step__desc">Nos ponemos las guantes. Te mantenemos al tanto con fotos y videos del progreso. Tu moto es nuestra prioridad.</p>
+          </div>
+          <div class="step__line" aria-hidden="true"></div>
+        </div>
+        <div class="process__step" data-step>
+          <div class="step__number">04</div>
+          <div class="step__content">
+            <h3 class="step__title">Entrega y garantía</h3>
+            <p class="step__desc">Tu moto lista para rodar. Garantía de 6 meses en mano de obra. La satisfacción no es opcional.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials__header">
+        <span class="section-label">05 — Opiniones</span>
+        <h2 class="section-title">Lo que dicen <em>los que vienen.</em></h2>
+      </div>
+      <div class="testimonials__grid">
+        <article class="testimonial" data-testimonial>
+          <div class="testimonial__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <blockquote class="testimonial__text">
+            "Llevé mi CB500 toda destruida a FORGED y la dejaron como nueva. No solo la arreglaron, le dieron vida. Ahora es la moto que siempre quise."
+          </blockquote>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar" aria-hidden="true">L</div>
+            <div>
+              <cite class="testimonial__name">Lucas Fernández</cite>
+              <span class="testimonial__moto">Honda CB500 — Restauración</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial" data-testimonial>
+          <div class="testimonial__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <blockquote class="testimonial__text">
+            "Mi SR400 ahora es un Café Racer que vuelve todas las cabezas. El equipo de FORGED entendió exactamente lo que quería sin tener que explicar dos veces."
+          </blockquote>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar" aria-hidden="true">A</div>
+            <div>
+              <cite class="testimonial__name">Ana Martínez</cite>
+              <span class="testimonial__moto">Yamaha SR400 — Café Racer</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial" data-testimonial>
+          <div class="testimonial__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <blockquote class="testimonial__text">
+            "Profesionales de verdad. Me explicaron cada paso, me mandaron fotos de cada semana y la moto quedó mejor de lo que esperaba. 100% recomendado."
+          </blockquote>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar" aria-hidden="true">R</div>
+            <div>
+              <cite class="testimonial__name">Rodrigo Sánchez</cite>
+              <span class="testimonial__moto">BMW R75/5 — Bobber</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner">
+      <div class="cta-banner__inner">
+        <h2 class="cta-banner__title">¿Tu moto necesita atención?</h2>
+        <p class="cta-banner__text">Escribinos y te asesoramos sin compromiso. Cada consulta es importante.</p>
+        <a href="#contact" class="btn btn--primary btn--large">Hablar con nosotros</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <span class="section-label">06 — Contacto</span>
+          <h2 class="section-title">Vení al <em>taller.</em></h2>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <span class="detail__label">Dirección</span>
+              <span class="detail__value">Av. San Martín 2450, Buenos Aires, Argentina</span>
+            </div>
+            <div class="contact__detail">
+              <span class="detail__label">Teléfono</span>
+              <span class="detail__value">+54 11 4567-8901</span>
+            </div>
+            <div class="contact__detail">
+              <span class="detail__label">Email</span>
+              <span class="detail__value">info@forgedmoto.com</span>
+            </div>
+            <div class="contact__detail">
+              <span class="detail__label">Horario</span>
+              <span class="detail__value">Lunes a Viernes: 9:00 — 18:00<br>Sábados: 9:00 — 14:00</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact__form-wrapper">
+          <form class="contact__form" id="contactForm" novalidate>
+            <div class="form__group">
+              <label for="name" class="form__label">Nombre</label>
+              <input type="text" id="name" name="name" class="form__input" required autocomplete="name" placeholder="Tu nombre">
+              <span class="form__error" aria-live="polite"></span>
+            </div>
+            <div class="form__group">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" id="email" name="email" class="form__input" required autocomplete="email" placeholder="tu@email.com">
+              <span class="form__error" aria-live="polite"></span>
+            </div>
+            <div class="form__group">
+              <label for="phone" class="form__label">Teléfono (opcional)</label>
+              <input type="tel" id="phone" name="phone" class="form__input" autocomplete="tel" placeholder="+54 11 0000-0000">
+            </div>
+            <div class="form__group">
+              <label for="service" class="form__label">Servicio</label>
+              <select id="service" name="service" class="form__input form__select" required>
+                <option value="" disabled selected>Seleccioná un servicio</option>
+                <option value="reparacion">Reparación integral</option>
+                <option value="restauracion">Restauración clásica</option>
+                <option value="custom">Customización total</option>
+                <option value="mantenimiento">Mantenimiento preventivo</option>
+                <option value="otro">Otro / No estoy seguro</option>
+              </select>
+              <span class="form__error" aria-live="polite"></span>
+            </div>
+            <div class="form__group">
+              <label for="message" class="form__label">Contanos sobre tu moto</label>
+              <textarea id="message" name="message" class="form__input form__textarea" rows="5" required placeholder="Marca, modelo, año, qué necesitás..."></textarea>
+              <span class="form__error" aria-live="polite"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">
+              <span class="btn__text">Enviar mensaje</span>
+              <span class="btn__loading" aria-hidden="true">Enviando...</span>
+            </button>
+            <div class="form__success" id="formSuccess" role="alert" aria-live="polite" hidden>
+              <span class="success-icon">✓</span>
+              <p>Mensaje enviado. Te responderemos pronto.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="#hero" class="nav__logo" aria-label="FORGED — Inicio">
+          <span class="logo-icon">⬡</span>
+          <span class="logo-text">FORGED</span>
+        </a>
+        <p class="footer__tagline">Reparación, restauración y customización de motocicletas en Buenos Aires.</p>
+      </div>
+      <div class="footer__links">
+        <h3 class="footer__heading">Navegación</h3>
+        <ul>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#work">Trabajos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h3 class="footer__heading">Servicios</h3>
+        <ul>
+          <li><a href="#services">Reparación</a></li>
+          <li><a href="#services">Restauración</a></li>
+          <li><a href="#services">Customización</a></li>
+          <li><a href="#services">Mantenimiento</a></li>
+        </ul>
+      </div>
+      <div class="footer__social">
+        <h3 class="footer__heading">Seguinos</h3>
+        <div class="social__links">
+          <a href="https://instagram.com" class="social__link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="5"/>
+              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+          <a href="https://facebook.com" class="social__link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+          <a href="https://youtube.com" class="social__link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.13C5.12 19.56 12 19.56 12 19.56s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/541145678901" class="social__link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 FORGED Moto Workshop. Todos los derechos reservados.</p>
+      <p class="footer__credit">Hecho con grasa de motor y café.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+PROMPT PARA GENERACIÓN DE LANDING PAGE
+========================================
+
+ROL
+Actúa como un estudio creativo especializado en branding, diseño UX/UI, desarrollo frontend y marketing digital.
+No expliques el proceso de razonamiento.
+Toma todas las decisiones de forma autónoma y entrega únicamente el resultado final.
+________________________________________
+OBJETIVO
+Crear una Landing Page para una empresa especializada en reparación, restauración y customización de motocicletas.
+El resultado debe transmitir personalidad, calidad, confianza y pasión por el mundo de las motos.
+No debe parecer una plantilla ni un diseño generado automáticamente por inteligencia artificial.
+________________________________________
+LIBERTAD CREATIVA
+Eres responsable de todas las decisiones de diseño.
+Selecciona la alternativa que consideres más sólida desde el punto de vista del diseño, la experiencia de usuario y la identidad de marca.
+Prioriza la creatividad, la coherencia y la calidad antes que seguir patrones comunes.
+________________________________________
+DIRECCIÓN CREATIVA
+El sitio debe sentirse como una marca real. Puedes inspirarte en cualquier corriente estética que consideres adecuada:
+• Industrial
+• Minimalista
+• Brutalista
+• Editorial
+• Vintage
+• Neo-retro
+• Premium
+• Automotriz
+• Dark Mode
+• Monocromático
+• Alta tecnología
+• Taller artesanal
+• Café Racer
+• Bobber
+• Motorsport
+
+No estás obligado a utilizar ninguna en particular.
+Selecciona la que mejor represente la identidad que hayas creado.
+________________________________________
+RESTRICCIÓN
+Evita reproducir los patrones visuales más comunes de los asistentes de IA.
+No busques parecer una landing genérica.
+Busca construir una identidad propia y memorable.
+________________________________________
+CONTENIDO OBLIGATORIO
+La Landing Page debe incluir como mínimo:
+• Header con navegación
+• Hero Section con llamada a la acción
+• Sobre Nosotros
+• Servicios
+• Galería o trabajos realizados
+• Testimonios
+• Formulario de contacto (solo frontend)
+• Footer con redes sociales
+
+Puedes agregar cualquier otra sección que consideres útil para mejorar la experiencia.
+________________________________________
+EXPERIENCIA DE USUARIO
+Tienes libertad para definir la estructura.
+No es necesario seguir una estructura tradicional si existe una alternativa mejor.
+________________________________________
+COPY
+Todo el contenido debe ser original.
+No utilizar Lorem Ipsum.
+Texto propio de una empresa real.
+________________________________________
+TECNOLOGÍA
+Utilizar HTML5, CSS3 y JavaScript moderno.
+Generar código limpio, organizado y responsive.
+El proyecto debe estar listo para desplegarse sin modificaciones manuales.
+________________________________________
+VALIDACIÓN FINAL
+Antes de finalizar verifica que el resultado:
+• Posea una identidad visual propia
+• Sea responsive
+• Tenga excelente jerarquía visual
+• Genere impacto desde el primer vistazo
+• Sea accesible
+• Tenga SEO básico implementado
+• Mantenga consistencia estética
+• No parezca una plantilla genérica
+• No reproduzca patrones visuales típicos de asistentes de IA
+
+Si detectas una alternativa mejor durante el desarrollo, modifícala automáticamente antes de entregar el resultado.
+
+
+
+
