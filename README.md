@@ -56,9 +56,11 @@ Subir todo el código del proyecto a un único repositorio de GitHub. El archivo
 
 ---
 
-## 🌐 Deploy en Vercel
+## 🌐 Deploy y Repositorio
 
 **URL del proyecto:** https://fe-pfo2-prompt-engineering.vercel.app/
+
+**Repositorio de GitHub:** https://github.com/raquerh/Front-End-pfo2-prompt-engineering
 
 El proyecto está desplegado y accesible públicamente en Vercel. La portada incluye acceso directo al prompt utilizado y a ambas landing pages generadas.
 
@@ -389,53 +391,6 @@ La principal diferencia no fue en **capacidad** sino en **enfoque**:
 Ambos agentes cumplieron exitosamente con el objetivo. El prompt bien estructurado permitió obtener resultados profesionales en ambos casos, demostrando que un diseño de instrucciones sólido puede compensar diferencias entre modelos.
 
 El experimento valida que la inversión en prompt engineering genera resultados consistentes y de calidad, independientemente del agente utilizado, aunque cada uno mantendrá su personalidad característica.
-
----
-
-## 🚀 Instrucciones de Instalación y Despliegue
-
-### Clonar el Repositorio
-
-```bash
-git clone [URL_DE_TU_REPOSITORIO]
-cd [NOMBRE_DEL_REPOSITORIO]
-```
-
-### Visualización Local
-
-Este proyecto no requiere instalación de dependencias. Simplemente abre el archivo `index.html` en tu navegador:
-
-```bash
-# Opción 1: Abrir directamente el archivo
-start index.html  # Windows
-open index.html   # macOS
-xdg-open index.html  # Linux
-
-# Opción 2: Usar un servidor local (recomendado)
-# Si tienes Python instalado:
-python -m http.server 8000
-
-# Si tienes Node.js instalado:
-npx http-server
-```
-
-Luego accede a `http://localhost:8000` en tu navegador.
-
-### Desplegar en Vercel
-
-1. Crear una cuenta en [Vercel](https://vercel.com)
-2. Instalar Vercel CLI (opcional):
-   ```bash
-   npm i -g vercel
-   ```
-3. Desde la raíz del proyecto:
-   ```bash
-   vercel
-   ```
-4. Seguir las instrucciones en pantalla
-5. Copiar la URL generada y actualizar este README
-
----
 
 ## 📁 Estructura del Proyecto
 
