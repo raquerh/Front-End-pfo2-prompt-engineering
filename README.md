@@ -1,6 +1,6 @@
 # Práctica Formativa Obligatoria 2 - Prompt Engineering en Agentes de IA
 
-**Materia:** Desarrollo de Aplicaciones Web - Front End  
+**Materia:** Desarrollo de Sistemas Web - Front End  
 **Fecha de lanzamiento:** 8/06/2026  
 **Fecha de entrega:** 26/06/2026
 
