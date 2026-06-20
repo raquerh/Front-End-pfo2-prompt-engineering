@@ -173,23 +173,52 @@ Si detectas una alternativa mejor durante el desarrollo, modifícala automática
 
 ## 📸 Capturas de Pantalla
 
-### Landing Page - Agente 1 (Cursor)
+### Comparación Desktop (1920px)
 
-#### Vista Desktop (1920px)
-![Desktop Cursor](screenshots/cursor-desktop.png)
+<table>
+<tr>
+<td width="50%">
+<h4>Cursor - Cizalla Motor Co.</h4>
+<img src="screenshots/cursor-desktop.png" alt="Desktop Cursor" width="100%">
+</td>
+<td width="50%">
+<h4>OpenCode - FORGED</h4>
+<img src="screenshots/opencode-desktop.png" alt="Desktop OpenCode" width="100%">
+</td>
+</tr>
+</table>
 
-#### Vista Mobile (375px)
-![Mobile Cursor](screenshots/cursor-mobile.png)
+### Comparación Mobile (375px)
 
----
+<table>
+<tr>
+<td width="50%">
+<h4>Cursor - Cizalla Motor Co.</h4>
+<img src="screenshots/cursor-mobile.png" alt="Mobile Cursor" width="100%">
+</td>
+<td width="50%">
+<h4>OpenCode - FORGED</h4>
+<img src="screenshots/opencode-mobile.png" alt="Mobile OpenCode" width="100%">
+</td>
+</tr>
+</table>
 
-### Landing Page - Agente 2 (OpenCode)
+<details>
+<summary>Ver capturas en tamaño completo</summary>
 
-#### Vista Desktop (1920px)
-![Desktop OpenCode](screenshots/opencode-desktop.png)
+#### Desktop - Cursor
+![Desktop Cursor Full](screenshots/cursor-desktop.png)
 
-#### Vista Mobile (375px)
-![Mobile OpenCode](screenshots/opencode-mobile.png)
+#### Desktop - OpenCode
+![Desktop OpenCode Full](screenshots/opencode-desktop.png)
+
+#### Mobile - Cursor
+![Mobile Cursor Full](screenshots/cursor-mobile.png)
+
+#### Mobile - OpenCode
+![Mobile OpenCode Full](screenshots/opencode-mobile.png)
+
+</details>
 
 ---
 
